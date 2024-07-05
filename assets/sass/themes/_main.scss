@@ -1,0 +1,17 @@
+.btn {
+  &--login {
+    background-color: $greenAdl;
+    padding: .8rem;
+    color: white;
+  }
+
+  &--google {
+    padding: .4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1rem;
+    background-color: white;
+    border: 1px solid $lightGray
+  }
+}

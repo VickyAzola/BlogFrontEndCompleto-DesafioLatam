@@ -1,19 +1,28 @@
 // Grupo de caracteres permitidos
 @charset 'UTF-8';
 
-//importaciones Abstracts
+//Abstracts
 @import "abstracts/variables";
 
-//importaciones Vendors
+//Vendors
 
-//importaciones Base
+//Base
 @import "base/reset", "base/typography";
 
-//importaciones Layout
-@import "layout/form", "layout/header";
+//Layout
+@import "layout/form-login", "layout/header";
 
-//importaciones Componentes
-@import "components/logo";
+//Componentes
+@import 
+  "components/buttons", 
+  "components/checkbox", 
+  "components/inputs", 
+  "components/logo";
 
-//importaciones Shame
-@import "shame/shame"
+//Page
+
+//Themes
+@import "themes/main";
+
+//Shame
+@import "shame/shame";

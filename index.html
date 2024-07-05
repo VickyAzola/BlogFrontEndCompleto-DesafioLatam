@@ -14,42 +14,47 @@
         </div>
     </header>
 
-    <main>
+    <main class="main">
         <form class="form">
             <h2 class="form__title">Bienvenido</h2>
 
             <div class="input">
-                <label class="input__label">Email</label>
+                <label class="input__label" for="email">Email</label>
                 <input 
-                    class="input__type input__type--email" 
+                    class="input__type" 
                     type="email" 
+                    id="email"
                     placeholder="Email" 
+                    required
                 />
             </div>
 
             <div class="input">
-                <label class="input__label">Contraseña</label>
+                <label class="input__label" for="password">Contraseña</label>
                 <input 
-                    class="input__type input__type--password" 
+                    class="input__type" 
                     type="password" 
+                    id="password"
                     placeholder="Contraseña"
+                    required
                 />
             </div>
 
-            <div>
+            <div class="flex__group">
                 <div class="checkbox">
-                    <input type="checkbox" />
-                    <label>Recordarme</label>
+                    <input class="checkbox__input" type="checkbox" id="recordarme" />
+                    <label class="checkbox__label"  for="recordarme">Recordarme</label>
                 </div>
-                <a href="#">¿Olvidaste tu contraseña?</a>
+                <a class="link" href="#">¿Olvidaste tu contraseña?</a>
             </div>
 
-            <button>Iniciar sesión</button>
-            <button>
+            <button type="submit" class="btn btn--login">Iniciar sesión</button>
+            <button type="button" class="btn btn--google">
+                <img src="assets/img/google.png" width="30">
                 Iniciar sesión con Google
             </button>
 
-            <p>¿No tienes cuesta? <a href="#">Registrate</a></p>
+            <p class="form__footer">¿No tienes cuesta? <a href="#">Registrate</a></p>
         </form>
     </main>
 </body>

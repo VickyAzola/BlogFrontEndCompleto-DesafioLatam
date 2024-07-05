@@ -1,0 +1,35 @@
+.input {
+  display: flex;
+  flex-direction: column;
+
+  &__label {
+    visibility: hidden;
+  }
+
+  input[type="email"],
+  input[type="password"] {
+    padding: .9rem 1rem;
+    border-radius: .5rem;
+    border: 1px solid $lightGray;
+
+    &::placeholder {
+      color: $lightGray;
+      font-size: 1rem;
+    }
+  }
+}
+
+//Checkbox gropu with link
+.flex__group {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 .2rem;
+  align-items: center;
+  margin: 1rem 0;
+  color: $black;
+
+  .link {
+    color: $black;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>SASS 7-1</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img class="logo__img" src="assets/img/adl.png" alt="Logo Desafío Latam"/>
+            <h1 class="logo__title">Blog FrontEnd</h1>
+        </div>
+    </header>
+
+    <main>
+        <form class="form">
+            <h2 class="form__title">Bienvenido</h2>
+
+            <div class="input">
+                <label class="input__label">Email</label>
+                <input 
+                    class="input__type input__type--email" 
+                    type="email" 
+                    placeholder="Email" 
+                />
+            </div>
+
+            <div class="input">
+                <label class="input__label">Contraseña</label>
+                <input 
+                    class="input__type input__type--password" 
+                    type="password" 
+                    placeholder="Contraseña"
+                />
+            </div>
+
+            <div>
+                <div class="checkbox">
+                    <input type="checkbox" />
+                    <label>Recordarme</label>
+                </div>
+                <a href="#">¿Olvidaste tu contraseña?</a>
+            </div>
+
+            <button>Iniciar sesión</button>
+            <button>
+                Iniciar sesión con Google
+            </button>
+
+            <p>¿No tienes cuesta? <a href="#">Registrate</a></p>
+        </form>
+    </main>
+</body>
+</html>

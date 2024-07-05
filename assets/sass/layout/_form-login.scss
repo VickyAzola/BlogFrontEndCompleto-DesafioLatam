@@ -6,4 +6,12 @@
   margin-inline: auto;
   margin-top: 2rem;
   text-align: center;
+
+  .group__checkbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+    color: $black;
+  }
 }

@@ -19,17 +19,15 @@
   }
 }
 
-//Checkbox gropu with link
-.flex__group {
+.checkbox {
   display: flex;
-  justify-content: space-between;
-  padding: 0 .2rem;
   align-items: center;
-  margin: 1rem 0;
-  color: $black;
+  gap: .6rem;
 
-  .link {
-    color: $black;
-    text-decoration: none;
+  input[type="checkbox"] {
+    height: 1.3rem;
+    width: 1.3rem;
+    border: 1px solid $lightGray;
   }
 }
+

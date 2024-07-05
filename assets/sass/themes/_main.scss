@@ -3,6 +3,10 @@
     background-color: $greenAdl;
     padding: .8rem;
     color: white;
+
+    &:hover {
+      background-color: $green;
+    }
   }
 
   &--google {
@@ -13,5 +17,11 @@
     column-gap: 1rem;
     background-color: white;
     border: 1px solid $lightGray
+  }
+}
+
+.link {
+  &--register {
+    font-weight: bold;
   }
 }

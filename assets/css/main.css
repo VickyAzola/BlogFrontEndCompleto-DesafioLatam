@@ -32,11 +32,13 @@ html, body {
 }
 
 .btn {
-  width: 100%;
   border-radius: 0.5rem;
   margin-bottom: 1rem;
   font-size: 1rem;
   font-weight: bold;
+}
+.btn.btn-full {
+  width: 100%;
 }
 .btn:hover {
   cursor: pointer;
@@ -101,9 +103,6 @@ html, body {
   background-color: #74a02f;
   padding: 0.8rem;
   color: white;
-}
-.btn--login:hover {
-  background-color: #67c770;
 }
 .btn--google {
   padding: 0.4rem;

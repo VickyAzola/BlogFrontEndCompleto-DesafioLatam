@@ -2,7 +2,7 @@
 @charset 'UTF-8';
 
 //Abstracts
-@import "abstracts/variables";
+@import "abstracts/mixins", "abstracts/variables";
 
 //Vendors
 
@@ -25,4 +25,3 @@
 @import "themes/main";
 
 //Shame
-@import "shame/shame";

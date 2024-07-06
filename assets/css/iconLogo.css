@@ -1,0 +1,11 @@
+.card__footer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.card__footer .card__icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.253);
+}/*# sourceMappingURL=iconLogo.css.map */

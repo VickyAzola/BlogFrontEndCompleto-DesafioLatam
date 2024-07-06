@@ -1,0 +1,80 @@
+
+.novedades {
+  border-bottom: 1px solid $lightGray;
+  padding: 2rem 6rem;
+
+  &__title {
+    font-size: 1.75rem;
+  }
+
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 2rem;
+
+    .verticalCard {
+      width: 58%;
+    }
+
+    .horizontalCard__items {
+      width: 36%;
+    }
+  }
+}
+
+.populares__categorias {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 2rem;
+  padding: 2rem 6rem;
+
+  .populares {
+    width: 65%;
+  
+    &__title {
+      font-size: 1.75rem;
+      margin-bottom: 1rem;
+
+    }
+  
+    &__items {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 2rem;
+      row-gap: 1.5rem;
+    }
+  }
+
+  .categorias {
+    width: 25%;
+
+    &__title {
+      font-size: 1.75rem;
+    }
+
+    .widget__items {
+      display: flex;
+      flex-direction: column;
+      row-gap: 1.5rem;
+    }
+  }
+}
+.post__container {
+  padding: 2rem 6rem;
+
+  .relacionados {
+    &__title {
+      font-size: 1.75rem;
+      margin: 3rem 0 1.5rem;
+    }
+  
+    &__items {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 3rem;
+    }
+  }
+}
+
+
+

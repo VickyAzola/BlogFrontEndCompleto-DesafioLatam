@@ -1,7 +1,16 @@
+.logo--header {
+  border-bottom: 1px solid $lightGray;
+}
+
+.logo--footer {
+  border-top: 1px solid $lightGray;
+}
+
 .btn {
   &--login {
     background-color: $greenAdl;
     padding: .8rem;
+    margin-top: 1rem;
     color: white;
   }
 

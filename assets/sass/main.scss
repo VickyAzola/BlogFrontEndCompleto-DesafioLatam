@@ -2,22 +2,35 @@
 @charset 'UTF-8';
 
 //Abstracts
-@import "abstracts/mixins", "abstracts/variables";
+@import 
+  "abstracts/mixins", 
+  "abstracts/variables";
 
 //Vendors
 
 //Base
-@import "base/reset", "base/typography";
+@import 
+  "base/reset", 
+  "base/typography";
 
 //Layout
-@import "layout/form-login", "layout/header";
+@import 
+  "layout/form-login", 
+  "layout/header",
+  "layout/main",
+  "layout/footer"; 
+
 
 //Componentes
 @import 
+  "components/article",
+  "components/asideWidget", 
+  "components/verticalCard", 
   "components/buttons", 
   "components/inputs", 
   "components/links", 
-  "components/logo";
+  "components/logo",
+  "components/horizontalCard"; 
 
 //Page
 

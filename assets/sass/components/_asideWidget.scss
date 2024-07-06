@@ -1,0 +1,71 @@
+.categorias {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+
+    .categorias__title {
+        font-size: 1.75rem;
+        margin: 1rem 0;
+    }
+
+    .widget {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        border-radius: 0.5rem;
+        padding: 0.8rem 1.5rem;
+
+        &:hover {
+            cursor: pointer;
+            box-shadow: 4px 4px 1rem 1px rgba(0, 0, 0, 0.253);
+        }
+
+        &__img {
+            width: 3.5rem;
+        }
+
+        &__text {
+            font-weight: bold;
+            font-size: 2rem;
+            color: white;
+        }
+
+        &--html {
+            background-color: $red;
+        }
+
+        &--javascript {
+            background-color: $yellow;
+        }
+
+        &--css {
+            background-color: $skyBlue;
+        }
+
+        &--react {
+            background-color: $darkBlue;
+        }
+
+        &--vue {
+            background-color: $green;
+        }
+
+        &--bootstrap {
+            background-color: $darkViolet;
+        }
+    }
+
+    &__link {
+        margin-top: 2rem;
+        font-size: 1.25rem;
+        color: $black;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+            text-underline-offset: 7px;
+            transition: all ease-in-out 0.4s;
+        }
+    }
+}

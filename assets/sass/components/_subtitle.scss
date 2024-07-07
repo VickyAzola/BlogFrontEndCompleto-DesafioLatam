@@ -1,0 +1,13 @@
+.subtitle {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: $black;
+
+  &__mt {
+    @include subtitle(1rem)
+  }
+
+  &__mb {
+    @include subtitle(1rem)
+  }
+}

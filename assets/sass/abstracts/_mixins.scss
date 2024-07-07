@@ -5,6 +5,10 @@
   padding: 1.5rem 6rem;
 }
 
+@mixin subtitle ($margin) {
+  margin: $margin;
+}
+
 @mixin vertical-card (
     $img-width, 
     $img-height, 

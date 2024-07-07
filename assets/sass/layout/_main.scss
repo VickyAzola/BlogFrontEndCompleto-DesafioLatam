@@ -3,10 +3,6 @@
   border-bottom: 1px solid $lightGray;
   padding: 2rem 6rem;
 
-  &__title {
-    font-size: 1.75rem;
-  }
-
   &__items {
     display: flex;
     justify-content: space-between;
@@ -31,12 +27,6 @@
   .populares {
     width: 65%;
   
-    &__title {
-      font-size: 1.75rem;
-      margin-bottom: 1rem;
-
-    }
-  
     &__items {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -47,10 +37,6 @@
 
   .categorias {
     width: 25%;
-
-    &__title {
-      font-size: 1.75rem;
-    }
 
     .widget__items {
       display: flex;
@@ -63,10 +49,6 @@
   padding: 2rem 6rem;
 
   .relacionados {
-    &__title {
-      font-size: 1.75rem;
-      margin: 3rem 0 1.5rem;
-    }
   
     &__items {
       display: grid;

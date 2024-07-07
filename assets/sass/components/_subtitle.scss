@@ -3,11 +3,11 @@
   font-weight: bold;
   color: $black;
 
-  &__mt {
-    @include subtitle(1rem)
+  &.my {
+    @include subtitle(3rem 0 2rem)
   }
 
-  &__mb {
-    @include subtitle(1rem)
+  &.mb {
+    @include subtitle(0 0 1.5rem 0)
   }
 }

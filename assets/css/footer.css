@@ -1,0 +1,9 @@
+.footer {
+  padding: 1rem 6rem 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__text {
+  font-size: 1.25rem;
+}/*# sourceMappingURL=footer.css.map */

@@ -9,6 +9,13 @@
   margin: $margin;
 }
 
+@mixin link ($display, $fWeight, $fSize, $margin) {
+  display: $display;
+  font-weight: $fWeight;
+  font-size: $fSize;
+  margin: $margin;
+}
+
 @mixin vertical-card (
     $img-width, 
     $img-height, 

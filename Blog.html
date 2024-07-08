@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="header">
-        <a class="logo logo--header link" href="/Blog.html">
+        <a class="logo logo--header" href="/Blog.html">
             <img class="logo__img" src="assets/img/logos/adl.png" alt="Logo Desafío Latam"/>
             <h1 class="logo__title">Blog FrontEnd</h1>
         </a>
@@ -17,22 +17,22 @@
 
     <main>
         <section class="novedades">
-            <h2 class="subtitle mb">Novedades</h2>
+            <h2 class="subtitle subtitle--black mb">Novedades</h2>
             
             <div class="novedades__items">
                 <article class="verticalCard verticalCard--big">
-                    <a href="/Article.html">
+                    <a href="/Article.html" target="_blank" title="Leer Artículo...">
                         <img class="verticalCard__img" src="assets/img/posts/bootstrap.png" alt="Logo Bootstrap"/>
                     </a>
                     <div class="verticalCard__body">
                         <p class="verticalCard__date">24 Noviembre, 2022</p>
-                        <a href="/Article.html" class="link">
+                        <a href="/Article.html" class="link" target="_blank" title="Leer Artículo...">
                             <h2 class="verticalCard__title">Modifica el tema de Bootstrap con variables CSS</h2>
                         </a>
                     </div>
-                    <div class="verticalCard__footer">
-                        <img class="verticalCard__icon" src="assets/img/logos/adl.png" alt="Logo Desafío Latam"/>
-                        <p class="verticalCard__text">Desafío Latam</p>
+                    <div class="user user--large">
+                        <img class="user__icon" src="assets/img/logos/adl.png" alt="Logo Desafío Latam"/>
+                        <p class="user__text">Desafío Latam</p>
                     </div>
                 </article>
     
@@ -41,10 +41,10 @@
                         <img class="horizontalCard__img" src="assets/img/posts/Herencia-JS.png" alt="Logo javascript" />
                         <div class="horizontalCard__body">
                             <p class="horizontalCard__date">24 Noviembre, 2022</p>
-                            <h2 class="horizontalCard__title">Herencia en JavaScript</h2>
-                            <div class="horizontalCard__footer">
-                                <img class="horizontalCard__icon" src="assets/img/logos/adl.png" alt="Logo Desafío Latam"/>
-                                <p class="horizontalCard__text">Desafío Latam</p>
+                            <h3 class="horizontalCard__title">Herencia en JavaScript</h3>
+                            <div class="user user--small">
+                                <img class="user__icon" src="assets/img/logos/adl.png" alt="Logo Desafío Latam"/>
+                                <p class="user__text">Desafío Latam</p>
                             </div>
                         </div>
                     </article>
@@ -53,10 +53,10 @@
                         <img class="horizontalCard__img" src="assets/img/posts/Etiquetas-semánticas-HTML.png" alt="layout de etiquetas HTML" />
                         <div class="horizontalCard__body">
                             <p class="horizontalCard__date">24 Noviembre, 2022</p>
-                            <h2 class="horizontalCard__title">Etiquetas semánticas</h2>
-                            <div class="horizontalCard__footer">
-                                <img class="horizontalCard__icon" src="assets/img/logos/adl.png" alt="Logo Desafío Latam"/>
-                                <p class="horizontalCard__text">Desafío Latam</p>
+                            <h3 class="horizontalCard__title">Etiquetas semánticas</h3>
+                            <div class="user user--small">
+                                <img class="user__icon" src="assets/img/logos/adl.png" alt="Logo Desafío Latam"/>
+                                <p class="user__text">Desafío Latam</p>
                             </div>
                         </div>
                     </article>
@@ -65,10 +65,10 @@
                         <img class="horizontalCard__img" src="assets/img/posts/reactComponents.png" alt="logo react.js" />
                         <div class="horizontalCard__body">
                             <p class="horizontalCard__date">24 Noviembre, 2022</p>
-                            <h2 class="horizontalCard__title">Componentes React</h2>
-                            <div class="horizontalCard__footer">
-                                <img class="horizontalCard__icon" src="assets/img/logos/adl.png" alt="Logo Desafío Latam"/>
-                                <p class="horizontalCard__text">Desafío Latam</p>
+                            <h3 class="horizontalCard__title">Componentes React</h3>
+                            <div class="user user--small">
+                                <img class="user__icon" src="assets/img/logos/adl.png" alt="Logo Desafío Latam"/>
+                                <p class="user__text">Desafío Latam</p>
                             </div>
                         </div>
                     </article>
@@ -78,18 +78,18 @@
         
         <div class="populares__categorias">
             <section class="populares">
-                <h3 class="subtitle mb">Populares</h3>
+                <h3 class="subtitle subtitle--black mb">Populares</h3>
     
                 <div class="populares__items">
                     <article class="verticalCard verticalCard--small">
                         <img class="verticalCard__img" src="assets/img/posts/vue-components.png" alt="Logo vue" />
                         <div class="verticalCard__body">
                             <p class="verticalCard__date">24 Noviembre, 2022</p>
-                            <h3 class="verticalCard__title">Componentes Vue</h3>
+                            <h4 class="verticalCard__title">Componentes Vue</h4>
                         </div>
-                        <div class="verticalCard__footer">
-                            <img class="verticalCard__icon" src="assets/img/logos/adl.png" alt="Logo Desafío Latam"/>
-                            <p class="verticalCard__text">Desafío Latam</p>
+                        <div class="user user--medium">
+                            <img class="user__icon" src="assets/img/logos/adl.png" alt="Logo Desafío Latam"/>
+                            <p class="user__text">Desafío Latam</p>
                         </div>
                     </article>
         
@@ -97,11 +97,11 @@
                         <img class="verticalCard__img" src="assets/img/posts/api-js.png" alt="Diagrama sobre consumo de API con javascript" />
                         <div class="verticalCard__body">
                             <p class="verticalCard__date">24 Noviembre, 2022</p>
-                            <h3 class="verticalCard__title">Consumo de API con JavaScript</h3>
+                            <h4 class="verticalCard__title">Consumo de API con JavaScript</h4>
                         </div>
-                        <div class="verticalCard__footer">
-                            <img class="verticalCard__icon" src="assets/img/logos/adl.png" alt="Logo Desafío Latam"/>
-                            <p class="verticalCard__text">Desafío Latam</p>
+                        <div class="user user--medium">
+                            <img class="user__icon" src="assets/img/logos/adl.png" alt="Logo Desafío Latam"/>
+                            <p class="user__text">Desafío Latam</p>
                         </div>
                     </article>
         
@@ -109,11 +109,11 @@
                         <img class="verticalCard__img" src="assets/img/posts/sass.jpg" alt="Logo Sass" />
                         <div class="verticalCard__body">
                             <p class="verticalCard__date">24 Noviembre, 2022</p>
-                            <h3 class="verticalCard__title">CSS reutilizable con Sass</h3>
+                            <h4 class="verticalCard__title">CSS reutilizable con Sass</h4>
                         </div>
-                        <div class="verticalCard__footer">
-                            <img class="verticalCard__icon" src="assets/img/logos/adl.png" alt="Logo Desafío Latam"/>
-                            <p class="verticalCard__text">Desafío Latam</p>
+                        <div class="user user--medium">
+                            <img class="user__icon" src="assets/img/logos/adl.png" alt="Logo Desafío Latam"/>
+                            <p class="user__text">Desafío Latam</p>
                         </div>
                     </article>
         
@@ -121,18 +121,18 @@
                         <img class="verticalCard__img" src="assets/img/posts/bootstrap.png" alt="Logo Bootstrap" />
                         <div class="verticalCard__body">
                             <p class="verticalCard__date">24 Noviembre, 2022</p>
-                            <h3 class="verticalCard__title">Componentes Bootstrap</h3>
+                            <h4 class="verticalCard__title">Componentes Bootstrap</h4>
                         </div>
-                        <div class="verticalCard__footer">
-                            <img class="verticalCard__icon" src="assets/img/logos/adl.png" alt="Logo Desafío Latam"/>
-                            <p class="verticalCard__text">Desafío Latam</p>
+                        <div class="user user--medium">
+                            <img class="user__icon" src="assets/img/logos/adl.png" alt="Logo Desafío Latam"/>
+                            <p class="user__text">Desafío Latam</p>
                         </div>
                     </article>
                 </div>
             </section>
     
             <section class="categorias">
-                <h4 class="subtitle mb">Categorías</h4>
+                <h4 class="subtitle subtitle--black mb">Categorías</h4>
     
                 <div class="widget__items">
                     <div class="widget widget--html">
@@ -169,6 +169,22 @@
                 <a href="" class="link link--large">Ver todas las categorías ></a>
             </section>
         </div>
+
+        <form class="subscription">
+            <div class="subscription__firstSection">
+                <h5 class="subtitle subtitle--white">Mantente actualizado sobre el Desarrollo Front End</h5>
+                <div class="input">
+                    <label class="input__label" for="email">Email</label>
+                    <input 
+                    type="email" 
+                    id="email"
+                    placeholder="Email" 
+                    required
+                    />
+                </div>
+            </div>
+            <button class="btn btn--subscribe">Suscribirte</button>
+        </form>
     </main>
 
     <footer class="footer logo--footer">

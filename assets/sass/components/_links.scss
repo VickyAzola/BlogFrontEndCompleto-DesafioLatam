@@ -1,4 +1,17 @@
 .link {
-  color: $black;
+  //modificadores
   text-decoration: none;
+  color: $black;
+
+  &--light {
+    @include link (inline, 400, 1rem, 0);
+  }
+  
+  &--bold {
+    @include link(inline, 700, 1rem, 0);
+  }
+
+  &--large {
+    @include link(block, 400, 1.3rem, 4rem 0 0);
+  }
 }

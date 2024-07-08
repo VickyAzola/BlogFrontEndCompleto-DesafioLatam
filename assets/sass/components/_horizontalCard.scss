@@ -9,6 +9,11 @@
         max-width: 10rem;
         height: 100%;
         border-radius: 1rem;
+
+        &:hover {
+            opacity: 0.8;
+            cursor: pointer;
+        }
     }
     
     &__date,
@@ -20,23 +25,11 @@
     
     &__title {
         font-size: 1.25rem;
-    }
-    
-    &__footer {
-        display: flex;
-        align-items: center;
-        gap: .6rem;
-    }
 
-    &__icon {
-        width: 1.5rem;
-        height: 1.5rem;
-        border-radius: 50%;
-        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.253);
-    }
-    
-    &__text {
-        font-weight: 500;
+        &:hover {
+            color: $greenAdl;
+            cursor: pointer;
+        }
     }
 }
 

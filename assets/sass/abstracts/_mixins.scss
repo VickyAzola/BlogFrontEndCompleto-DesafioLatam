@@ -3,9 +3,16 @@
   align-items: center;
   gap: 1rem;
   padding: 1.5rem 6rem;
+  text-decoration: none;
 }
 
-@mixin subtitle ($margin) {
+@mixin subtitle ($color) {
+  color: $color;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+@mixin margin ($margin) {
   margin: $margin;
 }
 
@@ -16,31 +23,52 @@
   margin: $margin;
 }
 
-@mixin vertical-card (
-    $img-width, 
-    $img-height, 
-    $fsize-title, 
-    $icon-width, 
-    $icon-height, 
-    $fsize-text) {
-
+@mixin vertical-card ($img-width, $img-height, $fsize-title) {
   .verticalCard {
     &__img {
       width: $img-width;
       height: $img-height;
+      border-radius: 1rem;
+
+      &:hover {
+        opacity: 0.8;
+        cursor: pointer;
+      }
+    }
+
+    &__body {
+      padding: 0.5rem 0;
     }
     
     &__title {
       font-size: $fsize-title;
+
+      &:hover {
+        color: $greenAdl;
+        cursor: pointer;
+      }
     }
-    
+
+    &__date,
+    &__title,
+    &__footer {
+      margin-bottom: 0.7rem;
+    }
+  }
+}
+
+@mixin user ($icon-width, $icon-height, $fsize-text) {
+  .user {
     &__icon {
       width: $icon-width;
       height: $icon-height;
+      border-radius: 50%;
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.253);
     }
     
     &__text {
       font-size: $fsize-text;
+      font-weight: 500;
     }
   }
 }

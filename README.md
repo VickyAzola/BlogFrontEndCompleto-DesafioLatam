@@ -24,7 +24,7 @@ y registro.
 
 [Revisa el resultado final aqui]()
 
-![Wireframe - 4](https://github.com/VickyAzola/BlogFrontEndCompleto-DesafioLatam/assets/116470398/e26551cd-e59a-45ab-bb72-1837116e83ac)
+![Wireframe - 4](https://github.com/VickyAzola/BlogFrontEndCompleto-DesafioLatam/assets/116470398/9ac683bf-81e5-4331-ba11-3e9e51403c8d)
 ![Wireframe - 5](https://github.com/VickyAzola/BlogFrontEndCompleto-DesafioLatam/assets/116470398/edc34023-ff5d-4283-b1f0-7dee8a9fc08f)
 
 
@@ -100,7 +100,7 @@ BlogFrontEndCompleto-DesafioLatam/
 ## Tecnologías Utilizadas
 
 - **HTML5**: Para la estructura del sitio web.
-- **SASS**: Para el diseño y la presentación del sitio web.
+- **SASS**: Para el diseño y la presentación del sitio web. Los archivos SASS están organizados siguiendo la metodología 7-1 para mantener el código modular y fácil de mantener.
 - **Google Fonts**: Biblioteca de fuentes de texto. Se utilizo:
   - [Poppins](https://fonts.google.com/specimen/Poppins?query=Poppins)
 

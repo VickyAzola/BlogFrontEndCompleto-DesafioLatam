@@ -122,7 +122,7 @@ BlogFrontEndCompleto-DesafioLatam/
     ```bash
     cd BlogFrontEndCompleto-DesafioLatam
     ```
-3. Abrir `index.html` en tu navegadorpara ver el sitio web.
+3. Abrir `Registro.html` en tu navegadorpara ver el sitio web.
 
 ## Autores
 

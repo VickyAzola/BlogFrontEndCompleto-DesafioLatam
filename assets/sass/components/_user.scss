@@ -3,6 +3,12 @@
   align-items: center;
   gap: 1rem;
 
+  &__date {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 3rem;
+  }
+
   &--small {
     @include user (
       1.5rem,
@@ -26,4 +32,8 @@
       1.5rem
     ) 
   }
+
+  &.my {
+    @include margin(1.5rem 0 2rem); 
+  } 
 }

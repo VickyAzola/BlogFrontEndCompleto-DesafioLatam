@@ -1,20 +1,4 @@
 .article {
-  &__info {
-    display: flex; 
-    align-items: center;
-    column-gap: 4rem;
-    margin: 2rem 0;
-  }
-
-  &__icon {
-    width: 3rem;
-    height: 3rem;
-    border-radius: 50%;
-  }
-
-  &__text, &__date {
-    font-size: 1.2rem;
-  }
 
   &__description {
     background-color: rgb(224, 224, 224);

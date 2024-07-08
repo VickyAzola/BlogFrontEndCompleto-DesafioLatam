@@ -22,6 +22,8 @@ y registro.
 - `Blog.html`: Página del blog principal.
 - `Article.html`: Página de un artículo específico.
 
+[Revisa el resultado final aqui](https://vickyazola.github.io/BlogFrontEndCompleto-DesafioLatam/)
+
 ![Wireframe - 4](https://github.com/VickyAzola/BlogFrontEndCompleto-DesafioLatam/assets/116470398/9ac683bf-81e5-4331-ba11-3e9e51403c8d)
 
 ![Wireframe - 5](https://github.com/VickyAzola/BlogFrontEndCompleto-DesafioLatam/assets/116470398/edc34023-ff5d-4283-b1f0-7dee8a9fc08f)

@@ -27,27 +27,5 @@
   &__text {
     font-weight: 500;
   }
-
-  &--big {
-    @include vertical-card (
-      100%, 
-      auto, 
-      1.6rem, 
-      3.5rem, 
-      3.5rem, 
-      1.5rem
-    );
-  }
-  
-  &--small {
-    @include vertical-card (
-      100%, 
-      13rem, 
-      1.2rem, 
-      2.5rem, 
-      2.5rem, 
-      1rem
-    );
-  }
 }
 

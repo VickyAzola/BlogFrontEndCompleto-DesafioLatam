@@ -15,27 +15,28 @@
 
 //Layout
 @import 
-  "layout/form-login", 
-  "layout/header",
-  "layout/main",
+  "layout/form-login",
   "layout/footer"; 
 
 
 //Componentes
 @import 
-  "components/article",
-  "components/asideWidget", 
-  "components/verticalCard", 
   "components/buttons", 
+  "components/horizontalCard",
   "components/inputs", 
   "components/links", 
   "components/logo",
   "components/subtitle",
-  "components/horizontalCard"; 
+  "components/verticalCard",
+  "components/Widget"; 
 
 //Page
+@import 
+  "pages/article",
+  "pages/home";
 
 //Themes
-@import "themes/main";
+@import "themes/theme";
 
 //Shame
+@import "shame/shame";

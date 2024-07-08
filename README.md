@@ -93,7 +93,7 @@ BlogFrontEndCompleto-DesafioLatam/
 ├── Blog.html
 ├── Article.html
 ├── Login.html
-├── REARME.md
+├── README.md
 └── Registro.html
 ```
 

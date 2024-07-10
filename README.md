@@ -117,14 +117,33 @@ BlogFrontEndCompleto-DesafioLatam/
 ## Instalación
 
 1. **Clonar el repositorio**:
+   
     ```bash
     git clone git@github.com:VickyAzola/BlogFrontEndCompleto-DesafioLatam.git
     ```
+    
 2. **Navega al directorio del proyecto**
+   
     ```bash
     cd BlogFrontEndCompleto-DesafioLatam
     ```
-3. Abrir `Registro.html` en tu navegadorpara ver el sitio web.
+    
+3. **Instala las dependencias:**
+
+    Este proyecto asume que tienes Sass instalado globalmente. Si no lo tienes, puedes instalarlo con:
+
+    ```bash
+    npm install -g sass
+    ```
+
+4. **Compila los archivos Sass:**
+
+    Navega al directorio raíz del proyecto y ejecuta el siguiente comando para compilar los archivos Sass:
+
+    ```bash
+    sass assets/sass/main.scss assets/css/main.css
+   
+6. Abrir `Registro.html` en tu navegadorpara ver el sitio web.
 
 ## Autores
 

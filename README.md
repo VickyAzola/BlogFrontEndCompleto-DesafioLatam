@@ -38,24 +38,8 @@ BlogFrontEndCompleto-DesafioLatam/
 │   │   └── main.css
 │   │
 │   ├── img/
-│   │   ├── logos/
-│   │   │   ├── adl.png
-│   │   │   ├── bootstrap-logo.png
-│   │   │   ├── css.png
-│   │   │   ├── google.png
-│   │   │   ├── html.png
-│   │   │   ├── js.png
-│   │   │   ├── react.png
-│   │   │   └── vue.png
-│   │   │
-│   │   └── posts/
-│   │       ├── api-js.png 
-│   │       ├── bootstrap.png 
-│   │       ├── Etiquetas-semánticas-HTML.png 
-│   │       ├── Herencia-JS.png
-│   │       ├── reactComponents.png 
-│   │       ├── sass.jpg
-│   │       └── vue-components.png 
+│   │   ├── logos/...
+│   │   └── posts/...
 │   │
 │   ├── js/
 │   │    
